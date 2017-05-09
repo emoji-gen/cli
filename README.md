@@ -15,7 +15,9 @@ $ pip install git+https://github.com/emoji-gen/Emoji-CLI.git
 
 ## Usage
 
-TODO
+```
+$ emoji-gen 天才 現る
+```
 
 ![A genius appears](sample.png)
 
