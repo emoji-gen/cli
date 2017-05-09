@@ -13,7 +13,7 @@ setuptools.setup(
     url              = 'http://github.com/emoji-gen/Emoji-CLI',
     keywords         = 'emoji generator',
     packages         = ['emoji_cli', 'emoji_lib'],
-    package_data     = {},
+    package_data     = {'emoji_cli': ['*.otf']},
     entry_points     = {'console_scripts': ['emoji-gen = emoji_cli:main']},
     install_requires = [
         'Pillow >= 4.1.1',
