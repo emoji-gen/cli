@@ -17,5 +17,7 @@ $ pip install git+https://github.com/emoji-gen/Emoji-CLI.git
 
 TODO
 
+![A genius appears](sample.png)
+
 ## License
 MIT &copy; [Emoji Generator](https://emoji.pine.moe/)
