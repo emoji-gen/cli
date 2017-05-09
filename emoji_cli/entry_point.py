@@ -13,7 +13,7 @@ def main():
     parser.add_argument('-o', '--out', type=str, nargs='?', \
         help='output image file (default=out.png)')
     parser.add_argument('-c', '--color', type=str, nargs='?', \
-        help='set font color(default=000000')
+        help='set font color(default=000000)')
     parser.set_defaults( \
         font='NotoSansCJKjp-hinted/NotoSansMonoCJKjp-Bold.otf', \
         out='out.png', \
