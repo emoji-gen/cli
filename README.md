@@ -1,4 +1,4 @@
-# Emoji-CLI
+## Emoji-CLI
 
 :tada: Ultimate Emoji Generator for CLI
 
