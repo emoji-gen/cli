@@ -3,7 +3,7 @@
 import sys
 import argparse
 
-from String2emoji import String2emoji
+from emoji_lib import String2Emoji
 
 def main():
     parser = argparse.ArgumentParser()
@@ -27,7 +27,7 @@ def main():
     text = []
     for num in range(0, argc):
         text.append(argv[num])
-    emoji = String2emoji(text, fontFile,(r,g,b))
+    emoji = String2Emoji(text, fontFile,(r,g,b))
 
     img = emoji.getEmoji()
 

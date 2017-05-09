@@ -12,9 +12,9 @@ setuptools.setup(
     author_email     = 'pinemz@gmail.com',
     url              = 'http://github.com/emoji-gen/Emoji-CLI',
     keywords         = 'emoji generator',
-    packages         = ['emoji'],
+    packages         = ['emoji_cli', 'emoji_lib'],
     package_data     = {},
-    entry_points     = {'console_scripts': ['emoji-gen = emoji:main']},
+    entry_points     = {'console_scripts': ['emoji-gen = emoji_cli:main']},
     install_requires = [
         'Pillow >= 4.1.1',
     ],
