@@ -16,7 +16,7 @@ setuptools.setup(
     package_data     = {},
     entry_points     = {'console_scripts': ['emoji-gen = emoji:main']},
     install_requires = [
-        # TODO
+        'Pillow >= 4.1.1',
     ],
 )
 
