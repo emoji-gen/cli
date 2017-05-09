@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
+
 import sys
-from String2emoji import String2emoji
 import argparse
+
+from String2emoji import String2emoji
 
 def main():
     parser = argparse.ArgumentParser()
@@ -30,6 +32,7 @@ def main():
     img = emoji.getEmoji()
 
     img.save(imageFile)
+
 
 if __name__ == '__main__':
     main()
