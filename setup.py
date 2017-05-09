@@ -4,7 +4,7 @@
 import setuptools
 
 setuptools.setup(
-    name             = 'opoona',
+    name             = 'emoji_cli',
     version          = '0.1.0',
     description      = 'Ultimate Emoji Generator for CLI',
     license          = 'MIT',
