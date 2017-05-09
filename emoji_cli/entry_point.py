@@ -9,9 +9,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('messages', type=str, nargs='+', help='emoji message')
     parser.add_argument('-f', '--font', type=str, nargs='?', help='set font (default=NotoSansCJKjp-hinted/NotoSansMonoCJKjp-Bold.otf)')
-    parser.add_argument('-o', '--out', type=str, nargs='?', help='output image file (default=test.png)')
+    parser.add_argument('-o', '--out', type=str, nargs='?', help='output image file (default=out.png)')
     parser.add_argument('-c', '--color',type=str, nargs='?',help='set font color(default=000000')
-    parser.set_defaults(font='NotoSansCJKjp-hinted/NotoSansMonoCJKjp-Bold.otf', out='test2.png',color='000000')
+    parser.set_defaults(font='NotoSansCJKjp-hinted/NotoSansMonoCJKjp-Bold.otf', out='out.png',color='000000')
 
     args = parser.parse_args()
 
