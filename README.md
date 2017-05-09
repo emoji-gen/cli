@@ -10,7 +10,7 @@
 ## Getting Started
 
 ```
-$ pip install git+https://github.com/pine/opoona.git
+$ pip install git+https://github.com/emoji-gen/Emoji-CLI.git
 ```
 
 ## Usage
