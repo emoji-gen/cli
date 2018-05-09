@@ -22,4 +22,4 @@ $ emoji-gen 天才 現る
 ![A genius appears](sample.png)
 
 ## License
-MIT &copy; [Emoji Generator](https://emoji.pine.moe/)
+MIT &copy; [Emoji Generator](https://emoji-gen.ninja/)
