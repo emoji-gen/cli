@@ -1,16 +1,16 @@
-## Emoji-CLI
+## Emoji Generator CLI
 
-:tada: Ultimate Emoji Generator for CLI
+:tada: The ultimate command line client for Emoji Generator
 
 ## Requirements
 
-- Python 3.5
+- CPython 3.5, 3.6, or 3.7
 - pip
 
 ## Getting Started
 
 ```
-$ pip install git+https://github.com/emoji-gen/Emoji-CLI.git
+$ pip install git+https://github.com/emoji-gen/cli.git
 ```
 
 ## Usage
