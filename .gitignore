@@ -1,5 +1,13 @@
+# Python
 __pycache__
 *.pyc
 
+# virtualenv
 /venv
 /venv-*
+
+# setuptools
+build
+dist
+*.egg-info/
+
